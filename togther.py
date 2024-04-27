@@ -26,5 +26,5 @@ def get_response(input_text):
     ],
     model="mistralai/Mixtral-8x7B-Instruct-v0.1"
     )    
-    print(chat_completion.choices[0].message.content)
+    #print(chat_completion.choices[0].message.content)
     return chat_completion.choices[0].message.content 
